@@ -1,0 +1,272 @@
+body{
+    width: 100%; 
+    margin: 0;
+}
+.head_baner{
+    display: inline-flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.head_baner ol{
+    display: inline-flex; 
+    list-style: none;
+}
+.head_baner ol li i{  
+    margin-right: 15px; 
+} 
+.head_baner ul li a{  
+    text-decoration: none;
+    color: white;
+}
+.head_baner ul{   
+    display: inline-flex;
+    list-style: none;
+    position: absolute; 
+    margin-left: 934px; 
+}
+
+.heart{
+    padding: 10px 13px;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.Change{
+    padding: 10px 17px;
+    border: 1px solid white;
+    background-color: rgb(11, 23, 77);
+    margin-right: 10px;
+}
+.SignUp{
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: rgb(10, 141, 54);
+    margin-right: 10px;
+}
+.LogIn{
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: rgb(28, 38, 32);
+}
+
+/* 
+main
+*/
+
+main{
+    margin: 0;
+    width: 100%;
+    height: 89vh; 
+    background-color: green; 
+}
+.main_text{
+    display: inline-flex;
+    margin: 0 60px;
+}
+.start p{
+    font-size: 45px;
+    color: whitesmoke;
+}
+.Gosong{
+    position: absolute;
+    margin-left: 1000px; 
+}
+.Gosong p{
+    font-size: 25px;
+    color: whitesmoke;
+}
+/* 
+seaction3
+*/
+
+.section3{
+    margin-right: 60px;
+}
+.row1{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 60px;
+    width: 1180px;
+    height: 120px;
+}
+
+.vlock{
+    display: flex;
+    flex: 2;
+    background-color: rgb(48, 11, 231);
+    margin-right: 10px;
+}
+.vlock2{
+    display: flex;
+    flex: 2;
+    background-color: rgb(175, 85, 17);
+    margin-right: 10px;
+}
+.vlock3{
+    display: flex;
+    flex: 1;
+    background-color: rgb(139, 7, 7);
+    margin-right: 10px;
+}
+.vlock4{
+    display: flex;
+    flex: 1;
+    background-color: rgb(6, 18, 106);
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.vlock5{ 
+    display: flex;
+    flex: 1;
+    background-color: rgb(21, 97, 190);
+}
+/* 
+
+*/
+
+.row2{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 1180px;
+    height: 120px;
+}
+
+.block{
+    display: flex;
+    flex: 1;
+    background-color: rgb(48, 11, 231);
+    margin-right: 10px;
+}
+.block1{
+    display: flex;
+    flex: 1;
+    background-color: rgb(48, 11, 231);
+    margin-right: 10px;
+}
+.block2{
+    display: flex;
+    flex: 1;
+    background-color: rgb(194, 143, 33);
+    margin-right: 10px;
+}
+.block3{
+    display: flex;
+    flex: 2;
+    background-color: green; 
+    margin-right: 10px;
+
+}
+.block4{
+    display: flex;
+    flex: 1;
+    background-color: rgb(162, 14, 14);
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.block5{ 
+    display: flex;
+    flex: 1;
+    background-color: rgb(191, 9, 9);
+}
+/* 
+
+*/
+ 
+.row3{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 1173px;
+    height: 120px;
+}
+
+.glock{
+    display: flex;
+    flex: 1;
+    background-color: rgb(180, 32, 21);
+    margin-right: 10px;
+}
+.glock2{
+    display: flex;
+    flex: 1;
+    background-color: rgb(175, 85, 17);
+    margin-right: 10px;
+}
+.glock3{
+    display: flex;
+    flex: 2;
+    background-color: rgb(38, 23, 138);
+    margin-right: 10px;
+}
+.glock4{
+    display: flex;
+    flex: 1;
+    background-color: rgb(11, 133, 15);
+    margin-right: 10px;
+    
+}
+.glock5{
+    display: flex;
+    flex: 2; 
+    margin-left: 30px;
+    background-color: rgb(190, 176, 21);
+}
+
+
+.vlock_ i{
+    font-size: 60px; 
+    position: relative;
+    margin-top: 45px;
+    margin: auto;
+}
+.vlock_ p{
+    font-size: 12px; 
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+/* .row3{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.glock{ 
+    display: flex;
+    flex: 1;
+    background-color: rgb(48, 11, 231);
+    margin-right: 10px;
+     
+} 
+.glock2{
+    display: flex;
+    flex: 1;
+    background-color: black;
+    margin-right: 10px;
+}
+.glock3{
+    display: flex;
+    flex: 2;
+    background-color: rgb(165, 59, 59);  
+    margin-right: 10px
+}
+.glock4{
+    display: flex;
+    flex: 1;
+    background-color: rgb(153, 28, 28); 
+    margin-right: 10px;
+}
+.glock5{
+    display: flex;
+    width: 200px;
+    height: 20vh;
+    flex: 2; 
+    background-color: black; 
+    margin-left: 30px;
+} */
